@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+			<listener class-name="LearnSelnium.TestComponenets.Listeners"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+ <classes>
+      <class name="LearnSelnium.test.OrderCheckValidationHashMap"/>
+      <class name="LearnSelnium.test.OrderCheckValidation"/>
+      <class name="LearnSelnium.test.loginPageValidations"/>
+      <class name="LearnSelnium.test.OrderCheckValidationDataProvider"/>
+      <class name="LearnSelnium.test.OrderCheckValidationJSONData"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

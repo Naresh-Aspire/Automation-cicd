@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ecommerce" duration-ms="12679" started-at="2024-05-28T12:45:07Z" finished-at="2024-05-28T12:45:20Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="OrderCheckValidation.submitOrder()[pri:0, instance:LearnSelnium.test.OrderCheckValidation@1ffe63b9]" name="submitOrder" class="LearnSelnium.test.OrderCheckValidation"/>
+        <method signature="loginPageValidations.createNewPassword()[pri:0, instance:LearnSelnium.test.loginPageValidations@4b14c583]" name="createNewPassword" class="LearnSelnium.test.loginPageValidations"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="LoginCheck" duration-ms="10937" started-at="2024-05-28T12:45:07Z" finished-at="2024-05-28T12:45:18Z">
+      <class name="LearnSelnium.test.loginPageValidations">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:LearnSelnium.test.loginPageValidations@4b14c583]" name="launchApplication" is-config="true" duration-ms="8659" started-at="2024-05-28T12:45:07Z" finished-at="2024-05-28T12:45:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="createNewPassword()[pri:0, instance:LearnSelnium.test.loginPageValidations@4b14c583]" name="createNewPassword" duration-ms="1265" started-at="2024-05-28T12:45:16Z" finished-at="2024-05-28T12:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LearnSelnium.test.loginPageValidations@4b14c583]" name="closeBrowser" is-config="true" duration-ms="992" started-at="2024-05-28T12:45:17Z" finished-at="2024-05-28T12:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LearnSelnium.test.loginPageValidations -->
+    </test> <!-- LoginCheck -->
+    <test name="OrderCheck" duration-ms="12679" started-at="2024-05-28T12:45:07Z" finished-at="2024-05-28T12:45:20Z">
+      <class name="LearnSelnium.test.OrderCheckValidation">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:LearnSelnium.test.OrderCheckValidation@1ffe63b9]" name="launchApplication" is-config="true" duration-ms="8167" started-at="2024-05-28T12:45:07Z" finished-at="2024-05-28T12:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="submitOrder()[pri:0, instance:LearnSelnium.test.OrderCheckValidation@1ffe63b9]" name="submitOrder" duration-ms="3724" started-at="2024-05-28T12:45:15Z" finished-at="2024-05-28T12:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LearnSelnium.test.OrderCheckValidation@1ffe63b9]" name="closeBrowser" is-config="true" duration-ms="771" started-at="2024-05-28T12:45:19Z" finished-at="2024-05-28T12:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LearnSelnium.test.OrderCheckValidation -->
+    </test> <!-- OrderCheck -->
+  </suite> <!-- Ecommerce -->
+</testng-results>

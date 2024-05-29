@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Ecommerce]" parallel="tests">
+  <test thread-count="5" verbose="0" name="LoginCheck(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="LearnSelnium.test.loginPageValidations">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="createNewPassword"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- LearnSelnium.test.loginPageValidations -->
+    </classes>
+  </test> <!-- LoginCheck(failed) -->
+  <test thread-count="5" verbose="0" name="OrderCheck(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="LearnSelnium.test.OrderCheckValidation">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="submitOrder"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- LearnSelnium.test.OrderCheckValidation -->
+    </classes>
+  </test> <!-- OrderCheck(failed) -->
+</suite> <!-- Failed suite [Ecommerce] -->
